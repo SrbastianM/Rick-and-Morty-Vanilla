@@ -1,0 +1,21 @@
+
+#sectionOne{
+    text-align: center;
+    background-color: #4f93ce;
+    
+}
+
+.container {
+    border-radius: 15px;
+    margin-top: 2rem;
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px;
+}
+.card   {
+    background-color: antiquewhite;
+}
+
+hr {
+    width: auto;
+}
