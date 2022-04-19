@@ -12,6 +12,10 @@ button {
 #spinner {
     margin-left: 50%;
 }
+#navbar {
+    position:static;
+    justify-content: center;
+}
 .container {
     border-radius: 15px;
     margin-top: 2rem;
