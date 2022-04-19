@@ -1,15 +1,20 @@
-import { url } from "./components/Api.js";
-import { Card } from "./components/Card.js";
+import { showSpinner, hidenSpinner } from "./components/Spinner.js"; 
+import { createCard } from "./components/createdCard.js";
 
-
-fetch(url)
-  .then((response) => response.json())
-  .then((data) => {
-    let infoPersonaje = '';
-    data.results.forEach(elem => {
-        infoPersonaje += Card(elem);
-    });
-    document.getElementById('containerBody').innerHTML = infoPersonaje;
-    console.log(data);
-  })
-  .catch((err) => console.log(err));
+const fetchApi = (id) => {
+  fetch(` https://rickandmortyapi.com/api/character/${id}/`)
+    .then((response) => response.json())
+    .then((data) => {
+      createCard(data);
+      hidenSpinner();
+      console.log(data);
+    })
+    .catch((err) => console.log(err));
+}
+const getCharacters = (number) => {
+  showSpinner();
+  for(let i = 1; i <= number; i++) {
+    fetchApi(i);
+  }
+}
+getCharacters(6);

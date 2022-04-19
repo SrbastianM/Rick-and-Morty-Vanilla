@@ -1,3 +1,3 @@
-const url = "https://rickandmortyapi.com/api/character/";
+const url = `https://rickandmortyapi.com/api/character/`;
 
 export { url };

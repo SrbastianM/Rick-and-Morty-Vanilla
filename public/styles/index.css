@@ -4,7 +4,9 @@
     background-color: #4f93ce;
     
 }
-
+#spinner {
+    margin-left: 50%;
+}
 .container {
     border-radius: 15px;
     margin-top: 2rem;
