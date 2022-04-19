@@ -3,10 +3,17 @@ const createCard = (character) => {
     rootCard.classList.add('root', 'mt-5', 'mb-5') // 1 Madre
   
     const cardDistribution = document.createElement('div');
-    cardDistribution.classList.add('card', 'mb-2', 'style="max-width:540px;'); 
+    cardDistribution.classList.add('card', 'mb-2', 'style="max-width:540px;');  // debajo de aqui 
+
+    //<button type="button" class="btn-close" aria-label="Close"></button>
+    const deleteButton = document.createElement('button')
+    deleteButton.classList.add('btn-close')
+
+    cardDistribution.appendChild(deleteButton);
+
     
     const cardRow = document.createElement('div');
-    cardRow.classList.add('row', 'g-2',  'grid') //
+    cardRow.classList.add('row', 'g-2',  'grid') // OwO
     rootCard.appendChild(cardDistribution);
     
     const imageContainer = document.createElement('div');
