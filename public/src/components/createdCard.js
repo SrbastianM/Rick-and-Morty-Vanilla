@@ -7,6 +7,7 @@ const createCard = (character) => {
 
     //<button type="button" class="btn-close" aria-label="Close"></button>
     const deleteButton = document.createElement('button')
+    deleteButton.setAttribute('id', 'id-Button')
     deleteButton.classList.add('btn-close')
 
     cardDistribution.appendChild(deleteButton);
