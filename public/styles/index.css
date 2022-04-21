@@ -18,6 +18,11 @@ footer {
     position:static;
     justify-content: center;
 }
+#card-id {
+    position: absolute; right: 20px;
+    justify-content: right;
+    font-size: small;
+}
 .container {
     border-radius: 15px;
     margin-top: 2rem;

@@ -1,10 +1,11 @@
-const deleteCard = document.querySelector('#id-button');
+const button = document.querySelector('#id-Button');
 
-deleteCard.addEventListener('click', () => {
-    let cardIndex = cardIndex.findIndex();
+const deleteCard = () => {
+    button.addEventListener('click', () => {
+        console.log('funciona')
+    })
 
-    return console.log(cardIndex);
-})
+}
 
 
 export { deleteCard };

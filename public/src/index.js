@@ -1,8 +1,6 @@
 import { showSpinner, hidenSpinner } from "./components/Spinner.js"; 
 import { createCard } from "./components/createdCard.js";
-
-const deleteCard = document.querySelector('#id-button');
-
+//import { deleteCard } from "./components/Delete.js";
 
 let offset = 1;
 let limit = 5;
@@ -14,6 +12,7 @@ const fetchApi = (id) => {
     .then((data) => {
       createCard(data);
       hidenSpinner();
+      //deleteCard(data);
       console.log(data);
     })
     .catch((err) => console.log(err));

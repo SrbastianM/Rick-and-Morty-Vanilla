@@ -5,8 +5,9 @@ const createCard = (character) => {
     const cardDistribution = document.createElement('div');
     cardDistribution.classList.add('card', 'mb-2', 'style="max-width:540px;');  // debajo de aqui 
 
-    //<button type="button" class="btn-close" aria-label="Close"></button>
+    
     const deleteButton = document.createElement('button')
+    deleteButton.setAttribute('value', character.id)
     deleteButton.setAttribute('id', 'id-Button')
     deleteButton.classList.add('btn-close')
 
@@ -29,6 +30,11 @@ const createCard = (character) => {
     
     const cardBody = document.createElement('div');
     cardBody.classList.add('card-body');
+
+    const cardId = document.createElement('div');
+    cardId.setAttribute('id', 'card-id')
+    cardId.classList.add('card-text')
+    cardId.textContent = character.id
     
     const cardTitle = document.createElement('h5');
     cardTitle.classList.add('card-title');
@@ -58,6 +64,7 @@ const createCard = (character) => {
     cardRow.appendChild(cardBodyDistribution)
     cardBodyDistribution.appendChild(cardBody)
     
+    cardBody.appendChild(cardId);
     cardBody.appendChild(cardTitle);
     cardBody.appendChild(cardName)
     cardBody.appendChild(cardStatus)
