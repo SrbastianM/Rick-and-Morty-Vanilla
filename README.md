@@ -1,4 +1,3 @@
-## Rick-and-Morty-Vanilla
 
 ## _Rick and Morty Vanilla App_
 
