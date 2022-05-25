@@ -1,6 +1,6 @@
-# Rick-and-Morty-Vanilla
+## Rick-and-Morty-Vanilla
 
-# Desing by Tenki
+## Desing by Tenki
 ## _Rick and Morty Vanilla App_
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
