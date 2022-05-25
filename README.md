@@ -3,7 +3,7 @@
 # Desing by Tenki
 ## _Rick and Morty Vanilla App_
 
-[![Build Status]
+
 
 Rick and Morty Vanilla, is a small web application, in which the public application of _Rick and Morty_ is consumed using fetch..
 
