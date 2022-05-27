@@ -11,4 +11,4 @@ Rick and Morty Vanilla, is a small web application, in which the public applicat
 - ✨Magic ✨
 
 You can also visit the application  [Rick and Morty Vanila](https://rick-and-morty-vanilla.vercel.app/) 
-## Desing by Tenki
+# _Design by Tenki_
