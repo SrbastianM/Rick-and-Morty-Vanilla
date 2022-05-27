@@ -1,3 +1,6 @@
+body {
+    background-color: #d5ffb9;
+}
 button {
     position:absolute; z-index:1; 
     margin-top: 10px;
@@ -8,7 +11,7 @@ footer {
 }
 #sectionOne{
     text-align: center;
-    background-color: #4f93ce;
+    background-color: #cdaeff;
     
 }
 #spinner {
@@ -23,12 +26,15 @@ footer {
     justify-content: right;
     font-size: small;
 }
+
 .container {
     border-radius: 15px;
     margin-top: 2rem;
     display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 40px;
+
+    background-color: #d8f0ff;
 }
 .card   {
     background-color: antiquewhite;
